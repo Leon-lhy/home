@@ -1,0 +1,36 @@
+{
+    "code":200,
+    "msg": "success!",
+    "data": [
+        {
+            "title":"Hand-picked Sneakers Web Development",
+            "brief":"A sneark sharing platform called showTaste",
+            "time":"",
+            "character":"Jan. 2020 - May 2020",
+            "works":["Built a RESTful API with Node.js, deployed the server with Heroku and databases with Mongo Atlas",
+                "Completed authentication/authorization using passport and middleware, CRUD and search function, encouraged users to post their sneaker and commented other’s posts",
+                "Design database relationship diagrams for sneaker and user management, stored raw information data using Moogoose"],
+            "tags":[ "Express.js","Node.js", "BootStrap", "MongoDB", "JavaScript", "CSS", "HTML" ],
+            "link":["https://github.com/Leon-lhy/showyourtaste"],
+            "cover":"ct3.png",
+            "id1":"ct",
+            "id":"CT"
+        },
+        {
+            "title":"Augmented Reality (AR) Survey on AR Development Tools",
+            "brief":"Summarized and categorized AR capabilities, hardware, and software development tools",
+            "time":"Jan. 2020 - Present",
+            "character":"Research Assistant instructed by <a href='http://ranjithakumar.net/'><i>Prof. Ranjitha Kumar</i></a>",
+            "works":["Summarized and categorized AR capabilities, hardware, and software development tools including Hololens2, ARKit, etc.",
+                "Built a website called <a href='https://starmap.netlify.app/#/'><b><i>StarMap</i></b></a> using styled-components in React.js to suggest development tools for AR programmers",
+                "Cleaned the test data of AR applications in CSV files and converted to JSON form with Python as the website data sets"],
+            "tags":[ "React.js", "Python", "JavaScript", "Magic Leap1", "Hololen2" ],
+            "link":["https://github.com/UIUC-DDDG-AR"],
+            "cover":"ar1.png",
+            "id1":"ar",
+            "id":"AR"
+        }
+        
+        
+    ]
+}

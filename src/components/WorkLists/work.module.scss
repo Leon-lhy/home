@@ -1,0 +1,109 @@
+.worklist{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+         li{
+            width: 80%;            
+            margin-bottom: 50px;
+            .card{
+              display: inline-flex;
+              justify-content: space-between;
+              align-items: top;
+              margin-bottom: 1.8em;
+              .cover{
+                width: 37%;
+                height: auto;
+                img{
+                  width: 100%;
+                  padding-top: 0px !important;
+                  border-radius: 0px;
+                }
+              }
+              .workbrief{
+                width: 75%;
+                text-align: left;
+                padding-left: 18px;
+                .head_git{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  h4{
+                    font-size: 1.3em;
+                    color:black;
+                    font-weight: bold;
+                    margin: 0 !important;
+                    padding-top: 0 !important;
+                  }
+                  .git_link{
+                    padding-right: 5px;
+                    padding-top: 3px;
+                  }
+                  .git {
+                    color: black;
+                    font-size: 20px;
+                  }
+                }
+                .role_time{
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 0.6em !important;
+                }
+                .role {
+                  font-size: 1.0em;
+                  line-height: 1.2;
+                  font-weight: bold;
+                  font-style: italic;
+                  color: rgb(7, 7, 7);
+                  margin: 0 !important;
+                  padding: 0 !important;
+                }
+                .time {
+                  color: black;
+                  line-height: 1.2;
+                  font-size: 1.0em;
+                  font-weight: bold;
+                }
+                .works_list{
+                  display: flex;
+                  flex-direction: row;
+                  margin-bottom: 1.3em;
+                }
+                .works_dot{
+                  display: flex;
+                  flex-direction: column;
+                  padding-right: 10px;
+                  padding-top: 4px;
+                  font-weight: bold;
+                  font-size: .8em;
+                  color: rgba(20, 24, 24, 0.568);
+                }
+                .works_text {
+                  color:rgba(0, 0, 0, 0.808);
+                  line-height: 1.6;
+                  margin: 0em !important;
+                }
+                .tags{
+                  padding-top: 5px;
+                  display: flex;
+                  justify-content: flex-start;
+                  flex-wrap: wrap;
+                  margin-left: 32px;
+                  margin-top: 0 !important;
+                  span{
+                    color: rgba(0, 0, 0, 0.55);
+                    font-size: 14px;
+                  }
+                  span:not(:last-child)::after {
+                    content: "•";
+                    padding: 0px 0.5em;
+                  }
+                }
+              }
+            }
+        }
+    }
+}
