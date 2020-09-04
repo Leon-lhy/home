@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styles from './work.module.scss'
 import GitHubIcon from '@material-ui/icons/GitHub';
-
+import ImageFadeIn from "react-image-fade-in";
 
 export default ({dataSource}) => {
     return <div className={styles.worklist}> 
@@ -11,7 +11,7 @@ export default ({dataSource}) => {
                     <li key={i.id} >
                         <div className={styles.card}>
                             <div className={ styles.cover }>
-                                
+                                <ImageFadeIn src={ require(`../../assets/images/${i.cover}`) } />   
                             </div>
                             <div className={ styles.workbrief }>
                                 <div className={styles.head_git}>

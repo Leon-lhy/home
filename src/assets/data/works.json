@@ -1,36 +1,81 @@
 {
-    "code":200,
+    "code": 200,
     "msg": "success!",
     "data": [
         {
-            "title":"Hand-picked Sneakers Web Development",
-            "brief":"A sneark sharing platform called showTaste",
-            "time":"",
-            "character":"Jan. 2020 - May 2020",
-            "works":["Built a RESTful API with Node.js, deployed the server with Heroku and databases with Mongo Atlas",
-                "Completed authentication/authorization using passport and middleware, CRUD and search function, encouraged users to post their sneaker and commented other’s posts",
-                "Design database relationship diagrams for sneaker and user management, stored raw information data using Moogoose"],
-            "tags":[ "Express.js","Node.js", "BootStrap", "MongoDB", "JavaScript", "CSS", "HTML" ],
-            "link":["https://github.com/Leon-lhy/showyourtaste"],
-            "cover":"ct3.png",
-            "id1":"ct",
-            "id":"CT"
+            "title": "<a href='https://showtaste.herokuapp.com/'>ShowYourTaste - An Active Online Sneakers Platform",
+            "brief": "",
+            "time": "Jan 2020 - May 2020",
+            "character": "Full Stack Web Application",
+            "works": [
+                "Built a RESTful API with Express.js and Node.js, deployed the server with Heroku and databases with Mongo Atlas",
+                "Completed  authentication/authorization  using  passport  and  middleware, CRUD and custom search function, encouraged users to post their sneaker and commented other’s posts",
+                "Design database relationship diagrams for sneaker, user and comment management, stored raw information data using Moogoose"
+            ],
+            "tags": [
+                "Bootstrap4",
+                "Express.js",
+                "Node.js",
+                "MongoDB",
+                "HTML",
+                "JavaScript",
+                "CSS"
+            ],
+            "link": [
+                "https://github.com/Leon-lhy/showyourtaste"
+            ],
+            "cover": "showtaste.png",
+            "id1": "ct",
+            "id": "CT"
         },
         {
-            "title":"Augmented Reality (AR) Survey on AR Development Tools",
-            "brief":"Summarized and categorized AR capabilities, hardware, and software development tools",
-            "time":"Jan. 2020 - Present",
-            "character":"Research Assistant instructed by <a href='http://ranjithakumar.net/'><i>Prof. Ranjitha Kumar</i></a>",
-            "works":["Summarized and categorized AR capabilities, hardware, and software development tools including Hololens2, ARKit, etc.",
-                "Built a website called <a href='https://starmap.netlify.app/#/'><b><i>StarMap</i></b></a> using styled-components in React.js to suggest development tools for AR programmers",
-                "Cleaned the test data of AR applications in CSV files and converted to JSON form with Python as the website data sets"],
-            "tags":[ "React.js", "Python", "JavaScript", "Magic Leap1", "Hololen2" ],
-            "link":["https://github.com/UIUC-DDDG-AR"],
-            "cover":"ar1.png",
-            "id1":"ar",
-            "id":"AR"
+            "title": "Coronavirus Global Visualization Tracker",
+            "brief": "",
+            "time": "March 2020 - Present",
+            "character": "Interesting And Useful Front-end Project",
+            "works": [
+                "A website summarized information about Covid-19 via Data visualization by using React Hook and React-chart, enabled users to explore and predict the trendy of virus in the future",
+                "Developed  a  React  hook  front-end  with  real-time  virus  API  which  extracts  Json  data  and  providedinfected, recovered and deaths cases number of the world from March, 2020"
+            ],
+            "tags": [
+                "React.js",
+                "React Hook",
+                "React-Chart",
+                "Axios",
+                "Material-UI",
+                "JavaScript"
+            ],
+            "link": [
+                "https://github.com/Leon-lhy/covid_tracker"
+            ],
+            "cover": "covid-19.png",
+            "id1": "ar",
+            "id": "AR"
+        },
+        {
+            "title": "Promotive Daily Todo List -- Just do It",
+            "brief": "Constructed soil water erosion predictors using Eureqa based on the Genetic Programming Algorithm",
+            "time": "Aug. 2019 - Dec. 2019",
+            "character": "Full Stack Web Application",
+            "works": [
+                "There's nothing you don't want to do, but something you have to do. Made todo plan for myself, self-driving and keep going",
+                "Enabled CRUD their daily todo plan and customize user to highlight each one of different priority",
+                "Developed the front-end by React, built the backend by Node.js and Express and used PostgreSQL as database"
+            ],
+            "tags": [
+                "React",
+                "Bootstrap4",
+                "Express.js",
+                "Node.js",
+                "JavaScript",
+                "PostgreSQL"
+            ],
+            "link": [
+                "https://github.com/Leon-lhy/todoList"
+            ],
+            "cover": "todolist.png",
+            "id1": "gp",
+            "id": "GP"
         }
-        
-        
     ]
 }
