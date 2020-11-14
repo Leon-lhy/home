@@ -35,7 +35,7 @@
             "character": "Interesting And Useful Front-end Project",
             "works": [
                 "A website summarized information about Covid-19 via Data visualization by using React Hook and React-chart, enabled users to explore and predict the trendy of virus in the future",
-                "Developed  a  React  hook  front-end  with  real-time  virus  API  which  extracts  Json  data  and  providedinfected, recovered and deaths cases number of the world from March, 2020"
+                "Developed  a  React  hook  front-end  with  real-time  virus  API  which  extracts  Json  data  and  provided infected, recovered and deaths cases number of the world from March, 2020"
             ],
             "tags": [
                 "React.js",
