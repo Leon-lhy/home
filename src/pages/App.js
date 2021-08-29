@@ -29,7 +29,7 @@ class App extends Component {
         {/* footer */}
         <footer className={styles.footer}>
           <p>© <b>2020 Haoyu Liu</b></p>
-          <p><i><strong>Passion</strong> Is Matter</i></p>
+          <p><i><strong>Passion</strong> Matters</i></p>
         </footer>
       </div>
     );
